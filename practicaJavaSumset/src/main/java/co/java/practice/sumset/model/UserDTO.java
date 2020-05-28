@@ -12,19 +12,6 @@ public class UserDTO {
 	private String userName;
 	private String password;
 	private int edad;
-/*
- * Constructor de la clase userDTO
- * 
- * */
-	public UserDTO(String id, String nombre, String apellido, int edad, String userName, String password) {
-		this.id = id;
-		this.nombre = nombre;
-		this.apellido = apellido;
-		this.edad = edad;
-		this.userName = userName;
-		this.password = password;
-
-	}
 
 	// ------------------------Getters and Setters------------------
 

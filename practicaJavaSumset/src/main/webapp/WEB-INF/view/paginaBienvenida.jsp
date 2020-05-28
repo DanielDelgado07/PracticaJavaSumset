@@ -7,20 +7,21 @@
 <title>inicio sesion</title>
 </head>
 <body>
+
 	<Center>
 		<h2>BIBLIOTECA MUNICIPAL</h2>
 		<br>
-		<form action="procesarFormulario" method="get">
-			<br>
-			Usuario:
-			<input type="text" name="nombreUsuario" > 
+		<form action="principal/procesarFormulario" method="get">
+			<p>
+			Usuario:   <input type="text" name="nombreUsuario" > 
 			<br><br>
-			contraseña:
-			<input type="text" name="password" > 
+			contraseña:<input type="text" name="password" > 
 			<br><br>
-			<a href="pageRegistroBiblioteca">Registrarse</a>
-			<br>
-			<input type="submit">
+			<a href="registro/muestraFormularioRegistro">Registrarse</a>
+		
+			<input type="submit" value="Aceptar">
+			<input type="submit" value="Cancelar">
+		</p>
 		</form>
 		
 		
