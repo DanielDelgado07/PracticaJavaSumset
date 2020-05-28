@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /*
- * esta es una clase  controladora dela pages */
+ * esta es una clase  controladora de los libros */
 @Controller
 @RequestMapping("/principal")//creación de un directorio raiz
 public class pageController1 {
@@ -13,9 +13,9 @@ public class pageController1 {
 
 	@RequestMapping("/procesarFormulario")
 	public String procesarFormulario(@RequestParam("nombreUsuario") String nombre,Model modelo) {
-		nombre+=" es el nombre del usurio ";
+		nombre+=" se concatena un mensaje a la practica ";
 		
-		String mensajeFinal="¿Quien es el mejor alumno?"+nombre;
+		String mensajeFinal="¿se puede?"+nombre;
 		
 		//agregando info al modelo
 		

@@ -1,6 +1,5 @@
 package co.java.practice.sumset.model;
 
-
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
 
@@ -13,7 +12,7 @@ public class UserDTO {
 	private String userName;
 	private String password;
 	private String lugarResidencia;
-	
+
 	// ------------------------Getters and Setters------------------
 
 	/**
@@ -99,7 +98,6 @@ public class UserDTO {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-	
 
 	/**
 	 * @return the lugarResidencia
@@ -120,7 +118,5 @@ public class UserDTO {
 		return "UserDTO [nombre=" + nombre + ", apellido=" + apellido + ", userName=" + userName + ", password="
 				+ password + "edad=" + edad + "]";
 	}
-
-	
 
 }
