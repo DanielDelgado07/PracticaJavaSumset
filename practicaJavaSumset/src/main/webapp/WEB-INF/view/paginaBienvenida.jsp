@@ -15,10 +15,10 @@
 			<p>
 			Usuario:   <input type="text" name="nombreUsuario" > 
 			<br><br>
-			contraseña:<input type="text" name="password" > 
+			contraseña:<input type="password" name="password" > 
 			<br><br>
 			<a href="registro/muestraFormularioRegistro">Registrarse</a>
-		
+			<br><br>
 			<input type="submit" value="Aceptar">
 			<input type="submit" value="Cancelar">
 		</p>

@@ -9,30 +9,30 @@
 <title>Registro biblioteca</title>
 </head>
 <body>
-	<form action="muestraFormularioRegistro" modelAtrribute="userDTO">
+	<form action="procesarFormulario" modelAtrribute="userDTO">
 
 		<fieldset>
 
 			<legend>Información personal</legend>
 
 			<p>
-				Nombre: <input type="text" path="nombre"/>
+				   Nombre: <input type="text" path="nombre"/>
 			</p>
 
 			<p>
-				Apellido: <input type="text" path="apellido">
+			     Apellido: <input type="text" path="apellido">
 			</p>
 
 			<p>
-				Edad: <input type="text"path="edad">
+				     Edad: <input type="text"path="edad">
 			</p>
 
 			<p>
-				UserName: <input type="text" path="userName">
+				 UserName: <input type="text" path="userName">
 			</p>
 
 			<p>
-				Contraseña: <input type="text" path="password">
+				Contraseña: <input type="password" path="password">
 			</p>
 				
 			<p>

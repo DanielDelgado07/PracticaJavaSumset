@@ -13,7 +13,7 @@ public class pageController0 {
 	 * 
 	 */
 	
-	@RequestMapping //Encargado de mapear cual es el archivo paginaBienvenida
+	@RequestMapping//Encargado de mapear cual es el archivo paginaBienvenida
 	public String  generarPagina() {
 		return "paginaBienvenida";
 	}

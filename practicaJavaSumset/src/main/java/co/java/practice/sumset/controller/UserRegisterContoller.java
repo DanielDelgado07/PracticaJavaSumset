@@ -2,6 +2,7 @@ package co.java.practice.sumset.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import co.java.practice.sumset.model.UserDTO;
@@ -16,11 +17,19 @@ public class UserRegisterContoller {
 	public String muestraFormularioRegistro(Model modelo) {
 		UserDTO userDTO=new UserDTO();
 		
-		modelo.addAttribute("elRegistroUser",userDTO);
+		modelo.addAttribute("userDTO",userDTO);
 		
 		return "paginaRegistro";
 				
 	}
 
+	/*Confirmación de la creación de un usuario*
+	 * 
+	 */
+	@RequestMapping("/procesarFormulario")
+	public String procesarFormulario(@ModelAttribute("useDTO") UserDTO userDTO) {
+		
+		return "confirmacionRegistroUsuario";
+	}
 	
 }

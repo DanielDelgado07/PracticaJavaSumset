@@ -9,10 +9,11 @@ public class UserDTO {
 	private String id;
 	private String nombre;
 	private String apellido;
+	private int edad;
 	private String userName;
 	private String password;
-	private int edad;
-
+	private String lugarResidencia;
+	
 	// ------------------------Getters and Setters------------------
 
 	/**
@@ -97,6 +98,21 @@ public class UserDTO {
 	 */
 	public void setEdad(int edad) {
 		this.edad = edad;
+	}
+	
+
+	/**
+	 * @return the lugarResidencia
+	 */
+	public String getLugarResidencia() {
+		return lugarResidencia;
+	}
+
+	/**
+	 * @param lugarResidencia the lugarResidencia to set
+	 */
+	public void setLugarResidencia(String lugarResidencia) {
+		this.lugarResidencia = lugarResidencia;
 	}
 
 	@Override
